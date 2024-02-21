@@ -1,5 +1,10 @@
+import Header from "../components/Header";
+
 function Services() {
-  return <div className="container mx-auto">Services</div>;
+  return <>
+    <Header/>
+    <div className="xl:container px-10 mx-auto">Services</div>
+  </>;
 }
 
 export default Services;

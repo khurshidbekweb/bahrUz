@@ -1,5 +1,10 @@
+import Header from "../components/Header";
+
 function Portfolio() {
-  return <div className="container mx-auto">Portfolio</div>;
+  return <>
+  <Header/>
+        <div className="xl:container px-10 mx-auto">Portfolio</div>
+      </>;
 }
 
 export default Portfolio;

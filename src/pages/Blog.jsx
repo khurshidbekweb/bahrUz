@@ -1,5 +1,10 @@
+import Header from "../components/Header";
+
 function Blog() {
-  return <div className="container mx-auto">Blog</div>;
+  return <>
+          <Header/>
+            <div className="xl:container px-10 mx-auto">Blog</div>
+          </>;
 }
 
 export default Blog;
